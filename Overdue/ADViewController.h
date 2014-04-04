@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ADViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)reorderBarButtonItemPressed:(UIBarButtonItem *)sender;
+- (IBAction)addTaskBarButtonItemPressed:(UIBarButtonItem *)sender;
 
 @end

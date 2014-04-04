@@ -21,6 +21,9 @@
 		62E84AE818EE293F000972BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84ACA18EE293D000972BC /* UIKit.framework */; };
 		62E84AF018EE293F000972BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62E84AEE18EE293F000972BC /* InfoPlist.strings */; };
 		62E84AF218EE293F000972BC /* OverdueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84AF118EE293F000972BC /* OverdueTests.m */; };
+		62E84AFD18EE2A1E000972BC /* ADAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84AFC18EE2A1E000972BC /* ADAddTaskViewController.m */; };
+		62E84B0018EE2A62000972BC /* ADDetailTaskViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84AFF18EE2A62000972BC /* ADDetailTaskViewViewController.m */; };
+		62E84B0318EE2A73000972BC /* ADEditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84B0218EE2A73000972BC /* ADEditTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		62E84AED18EE293F000972BC /* OverdueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverdueTests-Info.plist"; sourceTree = "<group>"; };
 		62E84AEF18EE293F000972BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62E84AF118EE293F000972BC /* OverdueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverdueTests.m; sourceTree = "<group>"; };
+		62E84AFB18EE2A1E000972BC /* ADAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAddTaskViewController.h; sourceTree = "<group>"; };
+		62E84AFC18EE2A1E000972BC /* ADAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAddTaskViewController.m; sourceTree = "<group>"; };
+		62E84AFE18EE2A62000972BC /* ADDetailTaskViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDetailTaskViewViewController.h; sourceTree = "<group>"; };
+		62E84AFF18EE2A62000972BC /* ADDetailTaskViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDetailTaskViewViewController.m; sourceTree = "<group>"; };
+		62E84B0118EE2A73000972BC /* ADEditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADEditTaskViewController.h; sourceTree = "<group>"; };
+		62E84B0218EE2A73000972BC /* ADEditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADEditTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				62E84AD518EE293F000972BC /* ADAppDelegate.h */,
 				62E84AD618EE293F000972BC /* ADAppDelegate.m */,
 				62E84AD818EE293F000972BC /* Main.storyboard */,
+				62E84B0118EE2A73000972BC /* ADEditTaskViewController.h */,
+				62E84B0218EE2A73000972BC /* ADEditTaskViewController.m */,
+				62E84AFE18EE2A62000972BC /* ADDetailTaskViewViewController.h */,
+				62E84AFF18EE2A62000972BC /* ADDetailTaskViewViewController.m */,
 				62E84ADB18EE293F000972BC /* ADViewController.h */,
 				62E84ADC18EE293F000972BC /* ADViewController.m */,
+				62E84AFB18EE2A1E000972BC /* ADAddTaskViewController.h */,
+				62E84AFC18EE2A1E000972BC /* ADAddTaskViewController.m */,
 				62E84ADE18EE293F000972BC /* Images.xcassets */,
 				62E84ACD18EE293D000972BC /* Supporting Files */,
 			);
@@ -250,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E84AFD18EE2A1E000972BC /* ADAddTaskViewController.m in Sources */,
+				62E84B0018EE2A62000972BC /* ADDetailTaskViewViewController.m in Sources */,
 				62E84AD318EE293E000972BC /* main.m in Sources */,
 				62E84ADD18EE293F000972BC /* ADViewController.m in Sources */,
+				62E84B0318EE2A73000972BC /* ADEditTaskViewController.m in Sources */,
 				62E84AD718EE293F000972BC /* ADAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
