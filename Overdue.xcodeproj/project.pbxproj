@@ -127,14 +127,14 @@
 				62E84AD518EE293F000972BC /* ADAppDelegate.h */,
 				62E84AD618EE293F000972BC /* ADAppDelegate.m */,
 				62E84AD818EE293F000972BC /* Main.storyboard */,
+				62E84AFB18EE2A1E000972BC /* ADAddTaskViewController.h */,
+				62E84AFC18EE2A1E000972BC /* ADAddTaskViewController.m */,
 				62E84B0118EE2A73000972BC /* ADEditTaskViewController.h */,
 				62E84B0218EE2A73000972BC /* ADEditTaskViewController.m */,
 				62E84AFE18EE2A62000972BC /* ADDetailTaskViewViewController.h */,
 				62E84AFF18EE2A62000972BC /* ADDetailTaskViewViewController.m */,
 				62E84ADB18EE293F000972BC /* ADViewController.h */,
 				62E84ADC18EE293F000972BC /* ADViewController.m */,
-				62E84AFB18EE2A1E000972BC /* ADAddTaskViewController.h */,
-				62E84AFC18EE2A1E000972BC /* ADAddTaskViewController.m */,
 				62E84B0418EE3442000972BC /* Models */,
 				62E84ADE18EE293F000972BC /* Images.xcassets */,
 				62E84ACD18EE293D000972BC /* Supporting Files */,
@@ -489,6 +489,7 @@
 				62E84AF718EE293F000972BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62E84AF818EE293F000972BC /* Build configuration list for PBXNativeTarget "OverdueTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +498,7 @@
 				62E84AFA18EE293F000972BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
