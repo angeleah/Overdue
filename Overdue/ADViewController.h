@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ADAddTaskViewController.h"
+#import "ADDetailTaskViewViewController.h"
 
-@interface ADViewController : UIViewController <ADAddTaskViewControllerDelegate>
+@interface ADViewController : UIViewController <ADAddTaskViewControllerDelegate, UITableViewDataSource, UITableViewDelegate, ADDetailTaskViewViewControllerDelegate>
 
 @property (strong, nonatomic) NSMutableArray *taskObjects;
 

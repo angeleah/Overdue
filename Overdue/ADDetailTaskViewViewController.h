@@ -7,8 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADTask.h"
+#import "ADEditTaskViewController.h"
 
-@interface ADDetailTaskViewViewController : UIViewController
+@protocol ADDetailTaskViewViewControllerDelegate <NSObject>
+
+-(void)updateTask;
+
+@end
+
+@interface ADDetailTaskViewViewController : UIViewController <ADEditTaskViewControllerDelegate>
+
+@property (strong, nonatomic) ADTask *task;
+@property (weak, nonatomic) id <ADDetailTaskViewViewControllerDelegate> delegate;
+
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *dateLabel;
 @property (strong, nonatomic) IBOutlet UILabel *detailLabel;
